@@ -1,0 +1,286 @@
+2022-04-16 13:35:37,918 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 11796 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 13:35:37,923 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 13:35:41,379 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 4.536 seconds (JVM running for 6.565)
+2022-04-16 13:35:58,478 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-2] Entered into Shipment Register API
+2022-04-16 13:36:05,290 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-2] Exception : com.cloudleeaf.logisticsapi.exception.LogisticBadRequestCustomException: Origin should not be Null or Empty
+2022-04-16 19:20:18,396 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 4124 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 19:20:18,398 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 19:20:20,337 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 2.637 seconds (JVM running for 4.197)
+2022-04-16 19:20:42,359 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Register API
+2022-04-16 19:20:56,014 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Register API
+2022-04-16 19:21:18,817 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 20932 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 19:21:18,819 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 19:21:20,678 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 2.733 seconds (JVM running for 4.165)
+2022-04-16 19:26:44,977 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Register API
+2022-04-16 19:26:51,725 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Register API
+2022-04-16 19:56:26,178 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 25240 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 19:56:26,179 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 19:56:29,316 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 3.935 seconds (JVM running for 5.142)
+2022-04-16 19:56:36,018 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-3] Entered into Shipment Register API
+2022-04-16 19:56:46,048 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-3] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-16 19:56:49,249 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-3] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448192887","slug":"ups","id":"od5ehdadi1i2rl20nyuc401b","created_at":"2022-04-15T16:47:47+00:00"}}}"
+2022-04-16 19:57:22,609 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 4396 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 19:57:22,610 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 19:57:22,910 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.788 seconds (JVM running for 2.337)
+2022-04-16 19:58:23,414 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 25132 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 19:58:23,415 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 19:58:23,599 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.639 seconds (JVM running for 2.121)
+2022-04-16 20:06:45,404 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 17832 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 20:06:45,406 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 20:06:45,583 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.72 seconds (JVM running for 2.358)
+2022-04-16 20:23:40,295 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 6964 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 20:23:40,297 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 20:23:40,509 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.978 seconds (JVM running for 3.755)
+2022-04-16 20:25:58,021 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 2436 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 20:25:58,023 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 20:25:58,322 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 1.005 seconds (JVM running for 3.848)
+2022-04-16 20:31:27,352 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 15592 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 20:31:27,354 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 20:31:27,610 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 1.163 seconds (JVM running for 4.45)
+2022-04-16 20:32:22,892 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 4212 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 20:32:22,895 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 20:32:23,136 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 1.133 seconds (JVM running for 4.252)
+2022-04-16 21:11:12,411 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 21420 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:11:12,413 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:11:12,553 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.593 seconds (JVM running for 2.021)
+2022-04-16 21:11:17,023 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:11:17,052 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-16 21:11:17,059 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-16 21:11:17,065 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:11:29,610 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 16804 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:11:29,612 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:11:29,808 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.761 seconds (JVM running for 2.362)
+2022-04-16 21:11:30,308 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:11:30,320 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-16 21:11:30,326 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-16 21:11:30,333 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:15:19,509 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 15676 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:15:19,510 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:15:19,674 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.625 seconds (JVM running for 2.012)
+2022-04-16 21:15:20,112 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:15:20,113 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:15:34,475 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 21860 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:15:34,476 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:15:34,660 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.702 seconds (JVM running for 2.319)
+2022-04-16 21:15:35,131 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:15:35,131 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:15:44,195 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 24464 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:15:44,196 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:15:44,373 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.721 seconds (JVM running for 2.396)
+2022-04-16 21:15:49,418 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:15:49,441 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-16 21:15:49,448 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-16 21:15:49,455 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:15:49,457 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:15:49,463 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:15:54,778 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:15:57,318 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:32:25,872 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 9608 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:32:25,874 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:32:26,014 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.584 seconds (JVM running for 5.259)
+2022-04-16 21:33:42,957 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 13052 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:33:42,959 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:33:43,106 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.599 seconds (JVM running for 2.022)
+2022-04-16 21:45:32,372 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticsApiApplicationTests using Java 11.0.12 on BDC6-L-GWDXD63 with PID 20460 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:45:32,375 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:45:35,232 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticsApiApplicationTests in 3.613 seconds (JVM running for 6.186)
+2022-04-16 21:45:36,174 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 20460 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:45:36,174 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:45:36,974 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 0.843 seconds (JVM running for 7.928)
+2022-04-16 21:45:37,240 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Register API
+2022-04-16 21:45:37,255 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Register API
+2022-04-16 21:45:37,289 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Status API
+2022-04-16 21:45:37,289 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Status API
+2022-04-16 21:45:37,368 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 20460 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:45:37,368 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:45:37,384 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.063 seconds (JVM running for 8.339)
+2022-04-16 21:45:37,423 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-16 21:45:37,445 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:45:37,445 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:45:37,452 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-16 21:45:37,460 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:45:37,460 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:45:37,465 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:45:37,465 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:45:37,471 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:45:37,471 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:47:59,212 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticsApiApplicationTests using Java 11.0.12 on BDC6-L-GWDXD63 with PID 7364 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:47:59,215 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:48:01,559 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticsApiApplicationTests in 3.048 seconds (JVM running for 5.14)
+2022-04-16 21:48:02,354 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 7364 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:48:02,354 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:48:03,096 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 0.786 seconds (JVM running for 6.677)
+2022-04-16 21:48:03,339 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Register API
+2022-04-16 21:48:03,358 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Register API
+2022-04-16 21:48:03,393 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Status API
+2022-04-16 21:48:03,394 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Status API
+2022-04-16 21:48:03,449 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 7364 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:48:03,449 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:48:03,463 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.045 seconds (JVM running for 7.044)
+2022-04-16 21:48:03,504 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-16 21:48:03,517 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:48:03,518 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:48:03,523 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-16 21:48:03,529 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:48:03,529 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:48:03,534 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:48:03,535 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:48:03,540 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:48:03,540 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:51:11,309 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticsApiApplicationTests using Java 11.0.12 on BDC6-L-GWDXD63 with PID 6400 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:51:11,313 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:51:13,581 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticsApiApplicationTests in 2.933 seconds (JVM running for 4.837)
+2022-04-16 21:51:14,387 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 6400 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:51:14,388 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:51:15,122 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 0.78 seconds (JVM running for 6.378)
+2022-04-16 21:51:15,356 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Register API
+2022-04-16 21:51:15,376 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Register API
+2022-04-16 21:51:15,413 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Status API
+2022-04-16 21:51:15,413 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Status API
+2022-04-16 21:51:15,478 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 6400 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:51:15,478 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:51:15,491 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.048 seconds (JVM running for 6.747)
+2022-04-16 21:51:52,362 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticsApiApplicationTests using Java 11.0.12 on BDC6-L-GWDXD63 with PID 24332 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:51:52,366 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:51:54,686 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticsApiApplicationTests in 3.013 seconds (JVM running for 4.997)
+2022-04-16 21:51:55,498 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 24332 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:51:55,499 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:51:56,283 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 0.827 seconds (JVM running for 6.594)
+2022-04-16 21:51:56,537 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Register API
+2022-04-16 21:51:56,557 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Register API
+2022-04-16 21:51:56,593 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Status API
+2022-04-16 21:51:56,594 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Status API
+2022-04-16 21:51:56,649 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 24332 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:51:56,649 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:51:56,666 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.046 seconds (JVM running for 6.978)
+2022-04-16 21:51:56,705 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-16 21:51:56,717 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:51:56,718 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:51:56,724 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-16 21:51:56,730 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:51:56,730 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:51:56,735 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:51:56,736 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:51:56,741 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:51:56,741 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:53:24,784 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 11360 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:53:24,785 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:53:24,935 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.65 seconds (JVM running for 5.752)
+2022-04-16 21:53:25,508 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-16 21:53:57,474 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 15600 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:53:57,476 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:53:57,623 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.608 seconds (JVM running for 2.149)
+2022-04-16 21:53:58,084 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-16 21:55:17,006 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticsApiApplicationTests using Java 11.0.12 on BDC6-L-GWDXD63 with PID 18932 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:55:17,009 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:55:19,723 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticsApiApplicationTests in 3.559 seconds (JVM running for 6.043)
+2022-04-16 21:55:20,616 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 18932 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:55:20,616 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:55:21,532 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 0.96 seconds (JVM running for 7.853)
+2022-04-16 21:55:21,797 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Register API
+2022-04-16 21:55:21,828 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Register API
+2022-04-16 21:55:21,882 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Status API
+2022-04-16 21:55:21,883 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Status API
+2022-04-16 21:55:22,014 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 18932 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:55:22,015 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:55:22,045 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.116 seconds (JVM running for 8.365)
+2022-04-16 21:55:22,109 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-16 21:55:22,109 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-16 21:55:22,118 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:55:22,119 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:55:22,130 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-16 21:55:22,131 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-16 21:55:22,141 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:55:22,142 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:55:22,150 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:55:22,151 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:55:22,161 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:55:22,162 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:56:33,916 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticsApiApplicationTests using Java 11.0.12 on BDC6-L-GWDXD63 with PID 16728 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:56:33,919 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:56:36,909 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticsApiApplicationTests in 3.891 seconds (JVM running for 6.657)
+2022-04-16 21:56:38,030 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 16728 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:56:38,031 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:56:39,023 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 1.078 seconds (JVM running for 8.771)
+2022-04-16 21:56:39,346 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Register API
+2022-04-16 21:56:39,374 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Register API
+2022-04-16 21:56:39,412 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Status API
+2022-04-16 21:56:39,413 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Status API
+2022-04-16 21:56:39,492 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 16728 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:56:39,492 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:56:39,510 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.064 seconds (JVM running for 9.258)
+2022-04-16 21:56:39,563 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-16 21:56:39,564 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-16 21:56:39,571 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:56:39,572 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:56:39,578 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-16 21:56:39,579 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-16 21:56:39,586 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:56:39,586 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:56:39,592 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:56:39,594 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-16 21:56:39,600 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:56:39,600 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-16 21:58:38,991 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 9632 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 21:58:38,993 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 21:58:41,797 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 3.472 seconds (JVM running for 4.716)
+2022-04-16 22:01:08,744 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-2] Entered into Shipment Register API
+2022-04-16 22:01:08,762 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-2] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-16 22:01:11,251 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-2] Done with Shipment Register API
+2022-04-16 22:01:19,343 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-6] Entered into Shipment Status API
+2022-04-16 22:01:19,345 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-6] Shipment Details : {"id":"g9nzgz774lp32l222tbwr01y","origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":"Pending","trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-16 22:01:20,235 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-6] Done with Shipment Status API
+2022-04-16 22:02:02,435 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 9632 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 22:02:02,435 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 22:02:03,036 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 0.675 seconds (JVM running for 205.956)
+2022-04-16 22:02:26,438 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 23800 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 22:02:26,442 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 22:02:29,727 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 3.926 seconds (JVM running for 5.203)
+2022-04-16 22:02:36,521 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-1] Entered into Shipment Register API
+2022-04-16 22:02:36,549 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-1] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-16 22:02:39,422 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-1] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448192887","slug":"ups","id":"g9nzgz774lp32l222tbwr01y","created_at":"2022-04-16T16:31:10+00:00"}}}"
+2022-04-16 22:03:03,649 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-4] Entered into Shipment Register API
+2022-04-16 22:03:03,650 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-4] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-16 22:03:04,963 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-4] Done with Shipment Register API
+2022-04-16 22:04:43,120 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-8] Entered into Shipment Status API
+2022-04-16 22:04:43,121 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-8] Shipment Details : {"id":"q9h1xaw00ye0al222vrt002k","origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":"Pending","trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-16 22:04:58,339 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-8] Done with Shipment Status API
+2022-04-16 22:06:15,257 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-10] Entered into Shipment Register API
+2022-04-16 22:06:15,259 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-10] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448108905","courierCode":"UPS"}
+2022-04-16 22:07:44,050 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-10] Done with Shipment Register API
+2022-04-16 22:10:56,429 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-1] Entered into Shipment Register API
+2022-04-16 22:10:56,430 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-1] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448108905","courierCode":"UPS"}
+2022-04-16 22:11:02,601 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-1] Done with Shipment Register API
+2022-04-16 22:11:13,857 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-4] Entered into Shipment Status API
+2022-04-16 22:11:13,859 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-4] Shipment Details : {"id":"q9h1xaw00ye0al222vrt002k","origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":"InTransit","trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-16 22:11:14,455 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-4] Exception : org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found: "{"meta":{"code":4004,"message":"Tracking does not exist.","type":"NotFound"},"data":{}}"
+2022-04-16 22:11:33,162 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-6] Entered into Shipment Status API
+2022-04-16 22:11:33,163 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-6] Shipment Details : {"id":"vv5uy7d1cvvbwl2235w6o01e","origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":"Pending","trackingNumber":"1Z81V2780448108905","courierCode":"UPS"}
+2022-04-16 22:11:33,935 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-6] Done with Shipment Status API
+2022-04-16 22:21:37,625 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 9284 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 22:21:37,627 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 22:21:42,129 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 5.223 seconds (JVM running for 5.97)
+2022-04-16 22:23:10,420 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-1] Entered into Shipment Register API
+2022-04-16 22:23:10,439 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-1] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-16 22:23:11,615 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-1] Done with Shipment Register API
+2022-04-16 22:23:32,146 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-3] Entered into Shipment Status API
+2022-04-16 22:23:32,148 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-3] Shipment Details : {"id":"w7i6ifq8qur6zl223lmw1022","origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":"Pending","trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-16 22:23:32,861 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-3] Done with Shipment Status API
+2022-04-16 22:25:16,858 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-6] Entered into Shipment Register API
+2022-04-16 22:25:16,859 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-6] Origin should not be Null or Empty
+2022-04-16 22:25:16,862 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-6] Exception : com.cloudleeaf.logisticsapi.exception.LogisticCustomException: Origin should not be Null or Empty
+2022-04-16 22:30:02,520 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-8] Entered into Shipment Register API
+2022-04-16 22:30:02,522 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-8] Courier Code is Wrong. It should be FedEx, USPS or UPS
+2022-04-16 22:30:02,524 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-8] Exception : com.cloudleeaf.logisticsapi.exception.LogisticCustomException: Courier Code is Wrong. It should be FedEx, USPS or UPS
+2022-04-16 22:30:38,320 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-10] Entered into Shipment Status API
+2022-04-16 22:30:38,321 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-10] Exception : com.cloudleeaf.logisticsapi.exception.LogisticCustomException: 1Z81V2780448192881 is not found our Logistic Application.
+2022-04-16 22:31:16,885 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-1] Entered into Shipment Status API
+2022-04-16 22:31:16,886 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-1] Shipment Details : {"id":"w7i6ifq8qur6zl223lmw1022","origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":"InTransit","trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-16 22:31:17,788 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-1] Exception : org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found: "{"meta":{"code":4004,"message":"Tracking does not exist.","type":"NotFound"},"data":{}}"
+2022-04-16 23:40:17,515 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 19504 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-16 23:40:17,517 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-16 23:40:21,064 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 4.816 seconds (JVM running for 7.601)
+2022-04-16 23:40:21,433 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Register API
+2022-04-16 23:40:21,449 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Register API
+2022-04-16 23:40:21,496 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Status API
+2022-04-16 23:40:21,496 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Status API

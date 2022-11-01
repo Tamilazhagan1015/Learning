@@ -1,0 +1,267 @@
+2022-04-17 00:02:11,963 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 9284 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 00:02:11,972 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 00:02:13,717 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 1.923 seconds (JVM running for 6037.482)
+2022-04-17 00:37:12,371 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 9284 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 00:37:12,372 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 00:37:12,897 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 0.591 seconds (JVM running for 8136.646)
+2022-04-17 00:37:18,699 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 9284 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 00:37:18,699 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 00:37:19,234 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 0.584 seconds (JVM running for 8142.983)
+2022-04-17 00:49:48,088 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 23988 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 00:49:48,090 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 00:49:48,243 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.608 seconds (JVM running for 2.107)
+2022-04-17 00:49:48,829 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-17 11:04:38,732 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 17260 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 11:04:38,735 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 11:04:41,025 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 2.903 seconds (JVM running for 4.071)
+2022-04-17 11:05:07,642 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-1] Entered into Shipment Register API
+2022-04-17 11:05:07,660 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-1] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPSSS"}
+2022-04-17 11:05:20,419 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-4] Entered into Shipment Register API
+2022-04-17 11:05:20,420 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-4] Courier Code is Wrong. It should be FedEx, USPS or UPS
+2022-04-17 11:05:20,421 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-4] Exception : com.cloudleeaf.logisticsapi.exception.LogisticCustomException: Courier Code is Wrong. It should be FedEx, USPS or UPS
+2022-04-17 11:05:45,273 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-6] Entered into Shipment Register API
+2022-04-17 11:05:45,274 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-6] Courier Code is Wrong. It should be FedEx, USPS or UPS
+2022-04-17 11:05:45,274 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-6] Exception : com.cloudleeaf.logisticsapi.exception.LogisticCustomException: Courier Code is Wrong. It should be FedEx, USPS or UPS
+2022-04-17 11:06:49,510 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-8] Entered into Shipment Register API
+2022-04-17 11:06:49,510 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-8] Courier Code is Wrong. It should be FedEx, USPS or UPS
+2022-04-17 11:06:49,511 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-8] Exception : com.cloudleeaf.logisticsapi.exception.LogisticCustomException: Courier Code is Wrong. It should be FedEx, USPS or UPS
+2022-04-17 11:07:18,745 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-10] Entered into Shipment Register API
+2022-04-17 11:07:47,422 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 17244 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 11:07:47,424 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 11:07:49,879 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 3.113 seconds (JVM running for 4.261)
+2022-04-17 11:08:21,283 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-1] Entered into Shipment Register API
+2022-04-17 11:08:28,945 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-1] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-17 11:23:36,829 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 20860 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 11:23:36,831 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 11:23:39,003 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 2.742 seconds (JVM running for 3.915)
+2022-04-17 11:23:49,230 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-1] Entered into Shipment Register API
+2022-04-17 11:23:51,805 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-1] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-17 11:23:59,024 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-1] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448192887","slug":"ups","id":"w7i6ifq8qur6zl223lmw1022","created_at":"2022-04-16T16:53:11+00:00"}}}"
+2022-04-17 11:24:56,328 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 7188 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 11:24:56,330 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 11:24:58,325 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 2.514 seconds (JVM running for 3.476)
+2022-04-17 11:25:01,297 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 8692 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 11:25:01,299 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 11:25:13,038 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-1] Entered into Shipment Register API
+2022-04-17 11:25:17,835 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-1] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-17 11:25:22,876 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-1] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448192887","slug":"ups","id":"w7i6ifq8qur6zl223lmw1022","created_at":"2022-04-16T16:53:11+00:00"}}}"
+2022-04-17 11:26:00,970 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 19020 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 11:26:00,971 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 11:26:03,267 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 2.879 seconds (JVM running for 3.977)
+2022-04-17 11:26:49,604 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-1] Entered into Shipment Register API
+2022-04-17 11:26:49,616 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-1] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-17 11:26:55,836 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-1] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448192887","slug":"ups","id":"w7i6ifq8qur6zl223lmw1022","created_at":"2022-04-16T16:53:11+00:00"}}}"
+2022-04-17 11:27:55,937 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-3] Entered into Shipment Register API
+2022-04-17 11:27:55,938 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-3] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-17 11:28:07,052 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-3] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448192887","slug":"ups","id":"w7i6ifq8qur6zl223lmw1022","created_at":"2022-04-16T16:53:11+00:00"}}}"
+2022-04-17 11:32:45,595 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 23288 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 11:32:45,596 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 11:32:47,715 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 2.645 seconds (JVM running for 3.727)
+2022-04-17 11:32:57,180 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-2] Entered into Shipment Register API
+2022-04-17 11:32:57,194 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-2] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-17 11:33:01,124 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-2] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448192887","slug":"ups","id":"w7i6ifq8qur6zl223lmw1022","created_at":"2022-04-16T16:53:11+00:00"}}}"
+2022-04-17 11:36:59,038 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 22760 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 11:36:59,042 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 11:37:01,067 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 2.551 seconds (JVM running for 3.521)
+2022-04-17 11:37:07,586 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-2] Entered into Shipment Register API
+2022-04-17 11:37:07,599 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-2] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-17 11:37:11,662 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-2] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448192887","slug":"ups","id":"w7i6ifq8qur6zl223lmw1022","created_at":"2022-04-16T16:53:11+00:00"}}}"
+2022-04-17 11:37:53,428 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-4] Entered into Shipment Register API
+2022-04-17 11:37:53,430 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-4] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448108905","courierCode":"UPS"}
+2022-04-17 11:37:59,599 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-4] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448108905","slug":"ups","id":"vv5uy7d1cvvbwl2235w6o01e","created_at":"2022-04-16T16:40:56+00:00"}}}"
+2022-04-17 11:38:06,659 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-6] Entered into Shipment Register API
+2022-04-17 11:38:06,661 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-6] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448108905","courierCode":"UPS"}
+2022-04-17 11:38:18,640 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-6] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448108905","slug":"ups","id":"vv5uy7d1cvvbwl2235w6o01e","created_at":"2022-04-16T16:40:56+00:00"}}}"
+2022-04-17 11:38:28,243 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-8] Entered into Shipment Register API
+2022-04-17 11:38:35,883 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-8] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448108905","courierCode":"UPS"}
+2022-04-17 11:39:03,545 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-8] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448108905","slug":"ups","id":"vv5uy7d1cvvbwl2235w6o01e","created_at":"2022-04-16T16:40:56+00:00"}}}"
+2022-04-17 11:39:08,408 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-10] Entered into Shipment Register API
+2022-04-17 11:39:12,903 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-10] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"724561796730","courierCode":"FedEx"}
+2022-04-17 11:46:06,356 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 9392 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 11:46:06,357 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 11:46:08,453 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 2.622 seconds (JVM running for 3.704)
+2022-04-17 11:46:20,710 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-1] Entered into Shipment Register API
+2022-04-17 11:46:26,659 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-1] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448108905","courierCode":"UPS"}
+2022-04-17 11:46:27,747 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-1] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448108905","slug":"ups","id":"vv5uy7d1cvvbwl2235w6o01e","created_at":"2022-04-16T16:40:56+00:00"}}}"
+2022-04-17 11:46:54,645 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-4] Entered into Shipment Register API
+2022-04-17 11:47:00,141 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-4] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448108905","courierCode":"UPS"}
+2022-04-17 11:47:00,905 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-4] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448108905","slug":"ups","id":"vv5uy7d1cvvbwl2235w6o01e","created_at":"2022-04-16T16:40:56+00:00"}}}"
+2022-04-17 11:47:55,026 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 5132 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 11:47:55,029 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 11:47:56,974 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 2.452 seconds (JVM running for 3.425)
+2022-04-17 11:48:11,439 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-2] Entered into Shipment Register API
+2022-04-17 11:48:14,271 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-2] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448108905","courierCode":"UPS"}
+2022-04-17 11:48:15,279 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-2] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448108905","slug":"ups","id":"vv5uy7d1cvvbwl2235w6o01e","created_at":"2022-04-16T16:40:56+00:00"}}}"
+2022-04-17 11:50:33,353 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 10256 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 11:50:33,355 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 11:50:35,369 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 2.518 seconds (JVM running for 3.52)
+2022-04-17 11:50:45,881 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-2] Entered into Shipment Register API
+2022-04-17 11:50:48,639 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-2] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448108905","courierCode":"UPS"}
+2022-04-17 11:50:50,068 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-2] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448108905","slug":"ups","id":"vv5uy7d1cvvbwl2235w6o01e","created_at":"2022-04-16T16:40:56+00:00"}}}"
+2022-04-17 11:58:35,935 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 12224 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 11:58:35,937 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 11:58:38,577 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 3.278 seconds (JVM running for 4.418)
+2022-04-17 11:59:03,685 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-1] Entered into Shipment Register API
+2022-04-17 11:59:15,239 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-1] Origin should not be Null or Empty
+2022-04-17 11:59:18,235 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-1] Exception : com.cloudleeaf.logisticsapi.exception.LogisticCustomException: Origin should not be Null or Empty
+2022-04-17 18:22:19,011 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 9708 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 18:22:19,017 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 18:22:22,620 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 4.689 seconds (JVM running for 6.968)
+2022-04-17 18:22:44,129 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-1] Entered into Shipment Register API
+2022-04-17 18:22:48,616 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-1] Origin should not be Null or Empty
+2022-04-17 18:22:48,620 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-1] Exception : com.cloudleeaf.logisticsapi.exception.LogisticCustomException: Origin should not be Null or Empty
+2022-04-17 18:22:58,717 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-4] Entered into Shipment Register API
+2022-04-17 18:22:58,742 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-4] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448108905","courierCode":"UPS"}
+2022-04-17 18:23:00,166 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-4] Done with Shipment Register API
+2022-04-17 18:23:05,609 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-5] Entered into Shipment Status API
+2022-04-17 18:23:05,610 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-5] Exception : com.cloudleeaf.logisticsapi.exception.LogisticCustomException: 1Z81V2780448192887 is not found our Logistic Application.
+2022-04-17 18:23:24,935 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-7] Entered into Shipment Status API
+2022-04-17 18:23:24,937 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-7] Shipment Details : {"id":"rgabpvojrm7kel23aglop00x","origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":"Pending","trackingNumber":"1Z81V2780448108905","courierCode":"UPS"}
+2022-04-17 18:23:25,569 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-7] Done with Shipment Status API
+2022-04-17 19:23:43,044 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticsApiApplicationTests using Java 11.0.12 on BDC6-L-GWDXD63 with PID 19384 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 19:23:43,061 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 19:23:46,120 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticsApiApplicationTests in 4.063 seconds (JVM running for 8.005)
+2022-04-17 19:23:47,346 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 19384 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 19:23:47,346 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 19:23:48,391 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 1.104 seconds (JVM running for 10.28)
+2022-04-17 19:23:48,783 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 19384 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 19:23:48,784 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 19:23:48,803 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.063 seconds (JVM running for 10.688)
+2022-04-17 19:23:48,934 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 19:23:48,934 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 19:23:48,953 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-17 19:23:48,955 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-17 19:23:48,969 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 19:23:48,976 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 19:23:48,977 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-17 19:23:48,977 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-17 19:23:48,996 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-17 19:23:48,996 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-17 19:23:48,996 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-17 19:23:50,578 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code is Wrong. It should be FedEx, USPS or UPS
+2022-04-17 19:23:50,578 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-17 19:24:19,220 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 20784 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 19:24:19,224 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 19:24:19,501 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 1.027 seconds (JVM running for 3.796)
+2022-04-17 19:24:29,067 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-17 19:27:12,332 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticsApiApplicationTests using Java 11.0.12 on BDC6-L-GWDXD63 with PID 20964 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 19:27:12,349 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 19:27:15,545 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticsApiApplicationTests in 4.179 seconds (JVM running for 7.504)
+2022-04-17 19:27:16,687 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 20964 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 19:27:16,689 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 19:27:17,649 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 1.02 seconds (JVM running for 9.603)
+2022-04-17 19:27:17,964 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Register API
+2022-04-17 19:27:18,002 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Register API
+2022-04-17 19:27:18,048 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Status API
+2022-04-17 19:27:18,048 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Status API
+2022-04-17 19:27:18,124 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 20964 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 19:27:18,126 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 19:27:18,149 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.065 seconds (JVM running for 10.102)
+2022-04-17 19:27:18,257 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 19:27:18,257 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 19:27:18,276 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-17 19:27:18,277 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-17 19:27:18,291 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 19:27:18,291 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 19:27:18,298 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-17 19:27:18,298 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-17 19:27:18,306 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-17 19:27:18,306 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-17 19:27:18,313 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-17 19:27:19,660 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code is Wrong. It should be FedEx, USPS or UPS
+2022-04-17 19:27:19,660 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-17 20:13:39,032 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticsApiApplicationTests using Java 11.0.12 on BDC6-L-GWDXD63 with PID 9348 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 20:13:39,039 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 20:13:42,339 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticsApiApplicationTests in 4.364 seconds (JVM running for 8.453)
+2022-04-17 20:13:43,452 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 9348 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 20:13:43,453 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 20:13:44,556 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 1.161 seconds (JVM running for 10.668)
+2022-04-17 20:13:44,976 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Register API
+2022-04-17 20:13:45,005 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Register API
+2022-04-17 20:13:45,054 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Status API
+2022-04-17 20:13:45,054 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Status API
+2022-04-17 20:13:45,158 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 9348 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 20:13:45,159 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 20:13:45,187 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.082 seconds (JVM running for 11.299)
+2022-04-17 20:13:45,796 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 20:13:45,796 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 20:13:45,802 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-17 20:13:45,804 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-17 20:13:45,819 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 20:13:45,819 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 20:13:45,826 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-17 20:13:45,827 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-17 20:13:45,833 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-17 20:13:45,833 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-17 20:13:45,839 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-17 20:13:47,603 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code is Wrong. It should be FedEx, USPS or UPS
+2022-04-17 20:13:47,603 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-17 20:14:51,331 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticsApiApplicationTests using Java 11.0.12 on BDC6-L-GWDXD63 with PID 2020 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 20:14:51,340 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 20:14:54,693 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticsApiApplicationTests in 4.34 seconds (JVM running for 14.004)
+2022-04-17 20:14:55,845 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 2020 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 20:14:55,846 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 20:14:57,115 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 1.325 seconds (JVM running for 16.418)
+2022-04-17 20:14:57,536 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Register API
+2022-04-17 20:14:57,565 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Register API
+2022-04-17 20:14:57,627 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Status API
+2022-04-17 20:14:57,628 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Status API
+2022-04-17 20:14:57,730 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 2020 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 20:14:57,731 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 20:14:57,753 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 0.078 seconds (JVM running for 17.057)
+2022-04-17 20:14:58,345 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 20:14:58,345 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 20:14:58,362 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-17 20:14:58,362 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-17 20:14:58,382 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 20:14:58,382 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 20:14:58,382 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-17 20:14:58,395 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-17 20:14:58,402 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-17 20:14:58,402 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-17 20:14:58,416 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code is Wrong. It should be FedEx, USPS or UPS
+2022-04-17 20:14:58,416 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-17 23:16:59,730 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 15592 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 23:16:59,732 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 23:17:02,678 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 4.009 seconds (JVM running for 5.408)
+2022-04-17 23:18:06,813 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-2] Entered into Shipment Register API
+2022-04-17 23:18:06,847 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-2] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448108905","courierCode":"UPS"}
+2022-04-17 23:18:08,566 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-2] Exception : org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"meta":{"code":4003,"message":"Tracking already exists.","type":"BadRequest"},"data":{"tracking":{"tracking_number":"1Z81V2780448108905","slug":"ups","id":"rgabpvojrm7kel23aglop00x","created_at":"2022-04-17T12:52:59+00:00"}}}"
+2022-04-17 23:19:13,759 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-4] Entered into Shipment Register API
+2022-04-17 23:19:13,761 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-4] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448108905","courierCode":"UPS"}
+2022-04-17 23:19:14,469 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-4] Done with Shipment Register API
+2022-04-17 23:19:18,533 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-5] Entered into Shipment Status API
+2022-04-17 23:19:18,535 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-5] Shipment Details : {"id":"t0cxhtjxvd7akl23l1kdo006","origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":"Pending","trackingNumber":"1Z81V2780448108905","courierCode":"UPS"}
+2022-04-17 23:19:19,033 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-5] Done with Shipment Status API
+2022-04-17 23:26:22,276 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-8] Entered into Shipment Register API
+2022-04-17 23:26:22,279 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-8] Shipment Details : {"id":null,"origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":null,"trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-17 23:26:22,994 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-8] Done with Shipment Register API
+2022-04-17 23:26:48,398 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-9] Entered into Shipment Status API
+2022-04-17 23:26:48,401 INFO com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-9] Shipment Details : {"id":"i7b5hblvk3hfal23lar28006","origin":"990 S Hwy 395 S, Hermiston, OR 97838","destination":"3505 Factoria Blvd SE, Bellevue, WA 98006","currentStatus":"Pending","trackingNumber":"1Z81V2780448192887","courierCode":"UPS"}
+2022-04-17 23:26:49,013 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-9] Done with Shipment Status API
+2022-04-17 23:27:20,060 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-10] Entered into Shipment Register API
+2022-04-17 23:27:20,060 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-10] Origin should not be Null or Empty
+2022-04-17 23:27:20,061 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-10] Exception : com.cloudleeaf.logisticsapi.exception.LogisticCustomException: Origin should not be Null or Empty
+2022-04-17 23:27:36,991 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-2] Entered into Shipment Register API
+2022-04-17 23:27:36,992 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [http-nio-8081-exec-2] Courier Code is Wrong. It should be FedEx, USPS or UPS
+2022-04-17 23:27:36,994 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-2] Exception : com.cloudleeaf.logisticsapi.exception.LogisticCustomException: Courier Code is Wrong. It should be FedEx, USPS or UPS
+2022-04-17 23:27:54,470 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [http-nio-8081-exec-4] Entered into Shipment Status API
+2022-04-17 23:27:54,471 ERROR com.cloudleeaf.logisticsapi.exception.ControllerExceptionHandler [http-nio-8081-exec-4] Exception : com.cloudleeaf.logisticsapi.exception.LogisticCustomException: 1Z81V2780448192884 is not found our Logistic Application.
+2022-04-17 23:36:44,780 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticServiceTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 19832 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 23:36:44,783 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 23:36:45,181 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticServiceTest in 1.581 seconds (JVM running for 4.444)
+2022-04-17 23:36:47,099 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 23:36:47,101 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 23:36:47,127 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-17 23:36:47,128 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Destination should not be Null or Empty
+2022-04-17 23:36:47,159 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 23:36:47,160 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Tracking Number should not be Null or Empty
+2022-04-17 23:36:47,173 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-17 23:36:47,174 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Origin should not be Null or Empty
+2022-04-17 23:36:47,189 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-17 23:36:47,191 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-17 23:36:47,206 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code is Wrong. It should be FedEx, USPS or UPS
+2022-04-17 23:36:47,206 ERROR com.cloudleeaf.logisticsapi.service.LogisticServiceImpl [main] Courier Code should not be Null or Empty
+2022-04-17 23:53:28,960 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting LogisticsApiApplication using Java 11.0.12 on BDC6-L-GWDXD63 with PID 15592 (C:\Tamil\Personal\Prabhu\logistics-api\target\classes started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-04-17 23:53:28,961 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-04-17 23:53:29,844 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started LogisticsApiApplication in 1.024 seconds (JVM running for 2192.563)

@@ -1,0 +1,19 @@
+2022-10-31 18:21:24,734 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 14392 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-10-31 18:21:24,751 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-31 18:21:30,416 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 7.464 seconds (JVM running for 11.255)
+2022-10-31 18:21:37,976 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Register API
+2022-10-31 18:21:38,016 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Register API
+2022-10-31 18:21:38,082 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Status API
+2022-10-31 18:21:38,083 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Status API
+2022-10-31 18:22:17,262 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 15172 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-10-31 18:22:17,267 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-31 18:22:21,985 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 6.432 seconds (JVM running for 9.263)
+2022-10-31 18:22:22,487 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Register API
+2022-10-31 18:22:22,521 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Register API
+2022-10-31 18:22:22,615 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Status API
+2022-10-31 18:22:22,617 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Status API
+2022-10-31 18:31:23,825 INFO org.springframework.boot.StartupInfoLogger [main] Starting LogisticControllerTest using Java 11.0.12 on BDC6-L-GWDXD63 with PID 4184 (started by t.gunasekar in C:\Tamil\Personal\Prabhu\logistics-api)
+2022-10-31 18:31:23,827 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-31 18:31:26,187 INFO org.springframework.boot.StartupInfoLogger [main] Started LogisticControllerTest in 2.996 seconds (JVM running for 4.417)
+2022-10-31 18:31:52,648 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Entered into Shipment Register API
+2022-10-31 18:31:53,381 INFO com.cloudleeaf.logisticsapi.controller.LogisticController [main] Done with Shipment Register API
